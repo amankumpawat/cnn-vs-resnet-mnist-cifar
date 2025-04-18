@@ -47,7 +47,7 @@ The models are implemented in both **TensorFlow/Keras** and **PyTorch**, featuri
 
 ---
 
-### 🔁 SECTION 4: ResNet Architectures (PyTorch)
+### SECTION 4: ResNet Architectures (PyTorch)
 - **Cell 17:** Define core ADTs:  
   - `ResidualBlock`,  
   - `ResNet18`,  
@@ -67,7 +67,7 @@ The models are implemented in both **TensorFlow/Keras** and **PyTorch**, featuri
 
 ---
 
-### 📊 SECTION 5: Final Summaries & Testing
+### SECTION 5: Final Summaries & Testing
 - **Cell 29:** Use `torchsummary` to show model summaries of all ResNet models.
 - **Cell 30:** Visualize conv and dense layer weights across models for interpretability.
 - **Cell 31:** Perform final **black-box testing** using `classification_report()` on all six models:
@@ -82,11 +82,11 @@ The models are implemented in both **TensorFlow/Keras** and **PyTorch**, featuri
 
 ## Testing Strategy
 
-### ✔ Black-Box Testing
+### Black-Box Testing
 - **Cell 31:** Runs `black_box_test()` to compare predictions vs true labels.
 - Evaluation: Accuracy, precision, recall, and F1-score.
 
-### ✔ White-Box Testing
+### White-Box Testing
 - **Cells 8, 16, 20, 30:** Inspect model internals:
   - Training curves
   - Filter visualizations

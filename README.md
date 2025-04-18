@@ -1,5 +1,4 @@
-# Residual Networks for Robust Classification  
-### A Hands-On Investigation of Vanishing Gradient Mitigation Across MNIST and CIFAR-10
+# A Hands-On Investigation of Vanishing Gradient Mitigation Across MNIST and CIFAR-10
 
 ## Repository Overview
 
